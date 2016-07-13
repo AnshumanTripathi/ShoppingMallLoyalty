@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShoppingMallLoyality</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+ 
+     <string name="def">def</string>
+    <string name="typeHere">type here</string>
+    <string name="back">Back</string>
+    <string name="projectTitle">TV Channel Program Feedback</string>
+    <string name="bt_login">Login</string>
+    <string name="bt_signup">Sign Up</string>
+    <string name="bt_close">Close</string>
+    <string name="edt_username">enter username</string>
+    <string name="edt_password">enter password</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="txt_firstName">First Name</string>
+    <string name="txt_lastName">Last Name</string>
+    <string name="txt_userName">User Name</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_contact">Contact No</string>
+    <string name="txt_email">Email Id</string>
+    <string name="txt_city">City</string>
+    <string name="txt_State">State</string>
+    <string name="txt_Country">Country</string>
+    <string name="txt_Dob">Date Of Birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string-array name="cityArray">
+        <item>Indore</item>
+        <item>Ujjain</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+    </string-array>
+    <string-array name="stateArray">
+        <item>M.P</item>
+        <item>Maharasthra</item>
+    </string-array>
+    <string-array name="countryArray">
+        <item>India</item>
+    </string-array>
+
+    <string name="invite">Send Invitation</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="survey_menu">Survey</string>
+    <string name="close">Close</string>
+    <string name="bt_Update">Update</string>
+    <string name="EmailInvitation">Email Invitation</string>
+    <string name="ContactInvitation">Contact Invitation</string>
+    <string name="edt_email">abc@xyz.com</string>
+    <string name="bt_emailsend">Send</string>
+    <string name="img_email" />
+
+    <string-array name="edit_array">
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>Password</item>
+        <item>Email Id</item>
+        <item>Gender</item>
+        <item>Phone Number</item>
+        <item>Date Of Birth</item>
+        <item>Country</item>
+        <item>State</item>
+        <item>City</item>
+    </string-array>
+    <string name="sms">Send</string>
+    <string name="sign_up">Sign Up</string>
+    
+    
+</resources>

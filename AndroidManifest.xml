@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shoppingmallloyality"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission
+        android:name="com.shoppingmallloyality.location.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+         <!--  Add Google Map Library -->
+        <uses-library android:name="com.google.android.maps" />
+        <activity 
+            android:name="com.shoppingmallloyality.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.shoppingmallloyality.location.MainActivity"
+             >
+            
+        </activity>
+        <activity 
+            android:name="com.shoppingmallloyality.location.NewMap"></activity>
+        <!-- SinglePlaceActivity -->
+        <activity android:name="com.shoppingmallloyality.location.SinglePlaceActivity" android:label="Place Details">
+		</activity>
+        
+        <!-- PlacesMapActivity -->
+        <activity android:name="com.shoppingmallloyality.location.PlacesMapActivity" android:label="Near Places Map View">
+		</activity>
+		 <activity
+            android:name="com.shoppingmallloyality.login.MainActivityLogin"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.shoppingmallloyality.login.SignUpActivity"></activity>
+        <activity android:name="com.shoppingmallloyality.offersearch.GoogleSearchJson"/>
+		   <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBj5SkMZijLQPwd10jrjaCy5qBDfAlorfM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+    
+
+</manifest>
